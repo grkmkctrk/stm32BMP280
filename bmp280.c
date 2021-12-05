@@ -27,7 +27,6 @@ signed short dig_P9;
 float temperature;
 float pressure;
 float altitude;
-float init_height;
 
 uint8_t I2CRegisterRead(uint8_t dataAddr){
 	uint8_t rxBuff;
